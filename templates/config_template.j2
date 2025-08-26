@@ -1,0 +1,13 @@
+! Configuration for {{ device.name }}
+hostname {{ device.name }}
+!
+interface GigabitEthernet0/1
+ description Connected to LAN
+ ip address {{ device.ip_address }} 255.255.255.0
+ no shutdown
+!
+line vty 0 4
+ login local
+ transport input ssh
+!
+end

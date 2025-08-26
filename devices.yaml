@@ -1,0 +1,21 @@
+devices:
+  - name: R1
+    device_type: cisco_ios
+    hostname: 10.0.12.1
+    username: admin
+    password: admin123
+  - name: R2
+    device_type: cisco_ios
+    hostname: 10.0.12.2
+    username: admin
+    password: admin123
+  - name: R3
+    device_type: cisco_ios
+    hostname: 10.0.23.1
+    username: admin
+    password: admin123
+  - name: R4
+    device_type: cisco_ios
+    hostname: 10.0.34.1
+    username: admin
+    password: admin123

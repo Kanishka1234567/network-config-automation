@@ -1,0 +1,10 @@
+hostname R2
+!
+username Kasun privilege 15 secret Kasun12@
+ip domain-name lab.local
+crypto key generate rsa
+line vty 0 4
+ login local
+ transport input ssh
+!
+end
